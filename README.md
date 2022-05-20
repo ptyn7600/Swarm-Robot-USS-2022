@@ -9,6 +9,11 @@ I will update what I had for a week in this section
 
 
 ## What I learned
+# BBBlue Pinout
+
+<p align = "center">
+<img src = "https://user-images.githubusercontent.com/92234542/169590214-6d848bc9-e1a7-4a60-bb77-7550e176be5a.jpg" height="300">
+
 # Connect to the BBBlue Wirelessly
 
 I use PuTTy to connect to the BBBlue wireless. Use SSH and IP address is 172.25.55.88, port is 22.
