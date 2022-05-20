@@ -4,8 +4,11 @@
 I will update what I had for a week in this section
 |   Week      | Date        | Completion  |
 | ----------- | ----------- | ----------- |
-|     1       | May 18th    | - Use puTTy to connect w/ the BBBlue <br/> - Connect to wifi <br/>|
-|             | May 19th    | - Run C code on the BBBlue (Blink LED) <br/> |
+|     1       | May 18th    | - Use puTTy to connect w/ the BBBlue <br/> - Connect the BBBlue to wifi <br/> - Connect the BBB wirelessly|
+|             |     | - Run C/Python code on the BBBlue (Blink LED) <br/> |
+
+
+## What I learned
 
 ## Material
 1. [Basic Tutorial How to log in Beagle Bone Blue](https://static.packt-cdn.com/downloads/BeagleBoneRoboticProjectsSecondEdition_ColorImages.pdf)
