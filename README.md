@@ -18,6 +18,10 @@ I will update what I had for a week in this section
 
 I use PuTTy to connect to the BBBlue wireless. Use SSH and IP address is 172.25.55.88, port is 22.
 
+
+## Pin map
+For BonseScript,  some pin map is available in this [link](https://groups.google.com/g/beagleboard/c/xE-ntPE-jnI).
+  
 ## Material
 1. [Basic Tutorial How to log in Beagle Bone Blue](https://static.packt-cdn.com/downloads/BeagleBoneRoboticProjectsSecondEdition_ColorImages.pdf)
 2. [BBBlack LED Blink](http://derekmolloy.ie/beaglebone-controlling-the-on-board-leds-using-c/)
