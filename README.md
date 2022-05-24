@@ -5,8 +5,10 @@ I will update what I had for a week in this section
 |   Week      | Date        | Completion  |
 | ----------- | ----------- | ----------- |
 |     1       | May 18th - May 20th   | - Use puTTy to connect w/ the BBBlue <br/> - Connect the BBBlue to wifi <br/> - Connect the BBB wirelessly|
-|             |     | - Run C/Python code on the BBBlue (Blink LED) <br/> |
+|             | May 23th - May 30th   | - Run C/Python code on the BBBlue by using RC library <br/> - Be able to control the GPIO Pins (Blink the LEDs, read the Buttons) <br>|
 
+Note for tommorow:
+- Cannot read the ECHO pin of the ultrasonics -> Attach the button to check if the GPIO is set up correct (check the TRIG pin already by attaching the LED to it)
 
 ## What I learned
 # BBBlue Pinout
