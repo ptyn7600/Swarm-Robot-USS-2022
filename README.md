@@ -22,7 +22,8 @@ Note for tommorow:
 
 There are 3 ways to connect to the BBBlue:
 1. Use PuTTy to connect to the BBBlue via USB cable. In PuTTY window, go to Serial connection and put in your COM port. Speed is 9600.
-2. Once you connect to Use PuTTy to connect to the BBBlue wireless. Use SSH and IP address is 172.25.55.88, port is 22. Your IP address may differ from mine, and you can find it by 
+2. Once you connect to BBBlue via the USB cable, you can find the wifi IP address that allow you to connect the BBBlue via wifi. Refer to this [link](https://static.packt-cdn.com/downloads/BeagleBoneRoboticProjectsSecondEdition_ColorImages.pdf) to enable wifi and find the wifi IP address. Then, you can connect to the BBBlue wireless. I use SSH and IP address is 172.25.55.88, port is 22. Your IP address may differ from mine, and you can find it by "ifconfig" wanl0 in the terminal.
+3. The third way is to use [cloud9](https://beagleboard.org/support/bone101). But you need to connect the BBBlue via cable to allow the cloud9 to detect your device. Cloud9 is prefer to use while programming the board because it provides a GUI that we can write code much easier than to write it in the linux window.
 
 ## Pin map
 For BonseScript,  some pin map is available in this [link](https://groups.google.com/g/beagleboard/c/xE-ntPE-jnI).
@@ -30,6 +31,9 @@ For BonseScript,  some pin map is available in this [link](https://groups.google
 ### RC Library
 RC library is used, and the documentation on the library can be found [here](http://strawsondesign.com/docs/librobotcontrol/).
 
+### Some notes 
+1. The 5V port is not activated if you just plug in the USB cable to power the board. You can plug both the USB cable to use cloud9 and 12V adapter to activate the 5V power port. 
+2. 
 
 ## Material
 1. [Basic Tutorial How to log in Beagle Bone Blue](https://static.packt-cdn.com/downloads/BeagleBoneRoboticProjectsSecondEdition_ColorImages.pdf)
