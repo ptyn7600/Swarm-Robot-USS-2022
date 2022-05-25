@@ -33,7 +33,8 @@ RC library is used, and the documentation on the library can be found [here](htt
 
 ### Some notes 
 1. The 5V port is not activated if you just plug in the USB cable to power the board. You can plug both the USB cable to use cloud9 and 12V adapter to activate the 5V power port. 
-2. while using 
+2. While using functions in the GPIO library, most functions will ask for the chip and pin number of the GPIO pins. Refer to this [pin schematics](https://user-images.githubusercontent.com/92234542/169590214-6d848bc9-e1a7-4a60-bb77-7550e176be5a.jpg). For example, for port BLUE_GP0_PIN3(GPIO1_25), the chip number is 1, and pin id is 25. It's also corresponding to GPIO57 (1 * 32 + 25 = 57) in some application.
+
 
 ## Material
 1. [Basic Tutorial How to log in Beagle Bone Blue](https://static.packt-cdn.com/downloads/BeagleBoneRoboticProjectsSecondEdition_ColorImages.pdf)
