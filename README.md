@@ -39,6 +39,10 @@ Then I applied the same logic and wrote it in C to work with the BBBlue. Here is
 ## IR Distance Sensor SHARP 0A41SK Interface w/ BBBlue ([Datasheet](https://www.pololu.com/file/0J713/GP2Y0A41SK0F.pdf))
 
 First, I get the sensor to work with the Arduino by following this [tutorial]([https://create.arduino.cc/projecthub/abdularbi17/ultrasonic-sensor-hc-sr04-with-arduino-tutorial-327ff6](https://create.arduino.cc/projecthub/jenniferchen/distance-measuring-sensor-900520)). This link also explained how the sensor works. I initially calibrate my sensor by following this [link](https://aleksandarhaber.com/noise-reduction-and-calibration-of-distance-sensors-sharp-infrared-sensors/).
+The ADC pins can be found in below image.
+<p align = "center">
+<img src = "https://user-images.githubusercontent.com/92234542/170564906-142d1ee4-2e32-400f-a749-13df2335e59c.png" height="300">
+<p/>
 
 ## Some notes 
 1. The 5V port is not activated if you just plug in the USB cable to power the board. You can plug both the USB cable to use cloud9 and 12V adapter to activate the 5V power port. 
