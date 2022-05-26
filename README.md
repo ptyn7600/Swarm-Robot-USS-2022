@@ -5,7 +5,7 @@ I will update what I had for a week in this section
 |   Week      | Date        | Completion  |
 | ----------- | ----------- | ----------- |
 |     1       | May 18th - May 20th   | - Use puTTy to connect w/ the BBBlue <br/> - Connect the BBBlue to wifi <br/> - Connect the BBB wirelessly|
-|     2        | May 23th - May 30th   | - Run C/Python code on the BBBlue by using RC library <br/> - Be able to control the GPIO Pins (Blink the LEDs, read the Buttons) <br> - [Interface with the HC-SR04 ultrasonic sensor]()|
+|     2        | May 23th - May 30th   | - Run C/Python code on the BBBlue by using RC library <br/> - Be able to control the GPIO Pins (Blink the LEDs, read the Buttons) <br> - [Interface the HC-SR04 ultrasonic sensor with BBBLue](https://github.com/ptyn7600/Swarm-Robot-USS-2022/tree/main/ultrasonic_RC_Nhu)|
 
 Note for tommorow (Friday May 27th, 2022):
 - 
