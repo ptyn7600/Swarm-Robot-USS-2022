@@ -37,7 +37,8 @@ First, I get the sensor to work with the Arduino by following this [tutorial](ht
 Then I applied the same logic and wrote it in C to work with the BBBlue. Here is [the source code](https://github.com/ptyn7600/Swarm-Robot-USS-2022/tree/main/ultrasonic_RC_Nhu).
 
 ## IR Distance Sensor SHARP 0A41SK Interface w/ BBBlue
-First, I get the sensor to work with the Arduino by following this [tutorial]([https://create.arduino.cc/projecthub/abdularbi17/ultrasonic-sensor-hc-sr04-with-arduino-tutorial-327ff6](https://create.arduino.cc/projecthub/jenniferchen/distance-measuring-sensor-900520)). This link also explained how the sensor works.
+
+First, I get the sensor to work with the Arduino by following this [tutorial]([https://create.arduino.cc/projecthub/abdularbi17/ultrasonic-sensor-hc-sr04-with-arduino-tutorial-327ff6](https://create.arduino.cc/projecthub/jenniferchen/distance-measuring-sensor-900520)). This link also explained how the sensor works. I initially calibrate my sensor by following this [link](https://aleksandarhaber.com/noise-reduction-and-calibration-of-distance-sensors-sharp-infrared-sensors/).
 
 ## Some notes 
 1. The 5V port is not activated if you just plug in the USB cable to power the board. You can plug both the USB cable to use cloud9 and 12V adapter to activate the 5V power port. 
