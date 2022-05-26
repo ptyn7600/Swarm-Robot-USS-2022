@@ -36,6 +36,9 @@ First, I get the sensor to work with the Arduino by following this [tutorial](ht
 
 Then I applied the same logic and wrote it in C to work with the BBBlue. Here is [the source code](https://github.com/ptyn7600/Swarm-Robot-USS-2022/tree/main/ultrasonic_RC_Nhu).
 
+## IR Distance Sensor SHARP 0A41SK Interface w/ BBBlue
+First, I get the sensor to work with the Arduino by following this [tutorial]([https://create.arduino.cc/projecthub/abdularbi17/ultrasonic-sensor-hc-sr04-with-arduino-tutorial-327ff6](https://create.arduino.cc/projecthub/jenniferchen/distance-measuring-sensor-900520)). This link also explained how the sensor works.
+
 ## Some notes 
 1. The 5V port is not activated if you just plug in the USB cable to power the board. You can plug both the USB cable to use cloud9 and 12V adapter to activate the 5V power port. 
 2. While using functions in the GPIO library, most functions will ask for the chip and pin number of the GPIO pins. Refer to this [pin schematics](https://user-images.githubusercontent.com/92234542/169590214-6d848bc9-e1a7-4a60-bb77-7550e176be5a.jpg). For example, for port BLUE_GP0_PIN3(GPIO1_25), the chip number is 1, and pin id is 25. It's also corresponding to GPIO57 (1 * 32 + 25 = 57) in some application.
