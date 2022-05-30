@@ -54,7 +54,9 @@ IR sensor needs more work than the ultrasonic one. Indeed, I need to collect dat
 
 
 The function to estimate the distance based on the raw data is shown as follows:
-
+<p align = "center">
+<img src = "https://latex.codecogs.com/svg.image?\bg{green}d&space;=&space;(\frac{rawData}{k_1})^{\frac{1}{k_2}}" width="200" height="200">
+<p/>
 
 ## Some notes 
 1. The 5V port is not activated if you just plug in the USB cable to power the board. You can plug both the USB cable to use cloud9 and 12V adapter to activate the 5V power port. 
