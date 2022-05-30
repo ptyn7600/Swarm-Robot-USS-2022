@@ -51,12 +51,11 @@ IR sensor needs more work than the ultrasonic one. Indeed, I need to collect dat
 
 <img src = "https://github.com/ptyn7600/Swarm-Robot-USS-2022/blob/main/estimate_graph_IR.png" width="400" height="300">
 
-
-
 The function to estimate the distance based on the raw data is shown as follows:
 <p align = "center">
 <img src = "https://latex.codecogs.com/png.image?\dpi{110}\bg{white}d&space;=&space;(\frac{rawData}{k_1})^{\frac{1}{k_2}}">
 <p/>
+where k1 = 10599.39878314 and k2 = -0.91937492
 
 ## Some notes 
 1. The 5V port is not activated if you just plug in the USB cable to power the board. You can plug both the USB cable to use cloud9 and 12V adapter to activate the 5V power port. 
