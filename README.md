@@ -55,7 +55,7 @@ IR sensor needs more work than the ultrasonic one. Indeed, I need to collect dat
 
 The function to estimate the distance based on the raw data is shown as follows:
 <p align = "center">
-<img src = "https://latex.codecogs.com/png.image?\dpi{110}\bg{white}d&space;=&space;(\frac{rawData}{k_1})^{\frac{1}{k_2}}" width="200" height="200">
+<img src = "https://latex.codecogs.com/png.image?\dpi{110}\bg{white}d&space;=&space;(\frac{rawData}{k_1})^{\frac{1}{k_2}}">
 <p/>
 
 ## Some notes 
