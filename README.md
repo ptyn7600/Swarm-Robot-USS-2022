@@ -44,6 +44,13 @@ The ADC pins can be found in below image.
 <img src = "https://user-images.githubusercontent.com/92234542/170564906-142d1ee4-2e32-400f-a749-13df2335e59c.png" height="300">
 <p/>
 
+IR sensor needs more work than the ultrasonic one. Indeed, I need to collect data, generate the graph of the sensor's reading and the distane, and come up with the estimate equation for it. I follow [this link](https://aleksandarhaber.com/noise-reduction-and-calibration-of-distance-sensors-sharp-infrared-sensors/) to calibrate my IR sensor. Below is the graph that I have for my data:
+
+And this graph show show the estimation matches with the real data:
+
+The function to estimate the distance based on the raw data is shown as follows:
+
+
 ## Some notes 
 1. The 5V port is not activated if you just plug in the USB cable to power the board. You can plug both the USB cable to use cloud9 and 12V adapter to activate the 5V power port. 
 2. While using functions in the GPIO library, most functions will ask for the chip and pin number of the GPIO pins. Refer to this [pin schematics](https://user-images.githubusercontent.com/92234542/169590214-6d848bc9-e1a7-4a60-bb77-7550e176be5a.jpg). For example, for port BLUE_GP0_PIN3(GPIO1_25), the chip number is 1, and pin id is 25. It's also corresponding to GPIO57 (1 * 32 + 25 = 57) in some application.
