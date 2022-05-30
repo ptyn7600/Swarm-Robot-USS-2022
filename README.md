@@ -47,7 +47,7 @@ The ADC pins can be found in below image.
 
 IR sensor needs more work than the ultrasonic one. Indeed, I need to collect data, generate the graph of the sensor's reading and the distane, and come up with the estimate equation for it. I follow [this link](https://aleksandarhaber.com/noise-reduction-and-calibration-of-distance-sensors-sharp-infrared-sensors/) to calibrate my IR sensor. Below is the left graph that I have for my raw data, and the right graph shows the estimation matches with the real data:
 
-<img src = "https://github.com/ptyn7600/Swarm-Robot-USS-2022/blob/main/raw_data_graph.png" width="400" height="300">
+<img src = "https://github.com/ptyn7600/Swarm-Robot-USS-2022/blob/main/raw_data_graph.png" width="400" height="300" align="left">
 
 <img src = "https://github.com/ptyn7600/Swarm-Robot-USS-2022/blob/main/estimate_graph_IR.png" width="400" height="300">
 
