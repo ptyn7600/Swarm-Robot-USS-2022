@@ -63,7 +63,7 @@ where k1 = 10599.39878314 and k2 = -0.91937492
 
 *Note: Please refer to note 3 in Some notes section.
 
-Please refer to this [wiki page]() to find more detail on how I characterize the IR sensor.
+Please refer to this [wiki page](https://github.com/ptyn7600/Swarm-Robot-USS-2022/wiki/IR---Angle-of-the-Object-Characterization) to find more detail on how I characterize the IR sensor.
 
 ## Some notes 
 1. The 5V port is not activated if you just plug in the USB cable to power the board. You can plug both the USB cable to use cloud9 and 12V adapter to activate the 5V power port. 
