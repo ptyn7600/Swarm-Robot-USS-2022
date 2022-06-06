@@ -61,11 +61,14 @@ The function to estimate the distance based on the raw data is shown as follows:
 <p/>
 where k1 = 10599.39878314 and k2 = -0.91937492
 
+*Note: Please refer to note 3 in Some notes section.
+
 Please refer to this [wiki page]() to find more detail on how I characterize the IR sensor.
 
 ## Some notes 
 1. The 5V port is not activated if you just plug in the USB cable to power the board. You can plug both the USB cable to use cloud9 and 12V adapter to activate the 5V power port. 
 2. While using functions in the GPIO library, most functions will ask for the chip and pin number of the GPIO pins. Refer to this [pin schematics](https://user-images.githubusercontent.com/92234542/169590214-6d848bc9-e1a7-4a60-bb77-7550e176be5a.jpg). For example, for port BLUE_GP0_PIN3(GPIO1_25), the chip number is 1, and pin id is 25. It's also corresponding to GPIO57 (1 * 32 + 25 = 57) in some application.
+3. While interfacing the IR sensor, the output voltage from the sensor output can be up to 3V. However, the Analog port of the BBBlue can only take maximum of 1.8V. Therefore, breadboard a voltage dividor for the ouptut pin of the sensor to reduce the voltage into the BBBlue. I use two 10K resistors.  
 
 
 ## Material
