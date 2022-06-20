@@ -8,7 +8,7 @@ I will update what I had for a week in this section
 |     2       | May 23th - May 27th   | - Run C/Python code on the BBBlue by using RC library <br/> - Be able to control the GPIO Pins (Blink the LEDs, read the Buttons) <br> - [Interface the HC-SR04 ultrasonic sensor with BBBLue](https://github.com/ptyn7600/Swarm-Robot-USS-2022/tree/main/ultrasonic_RC_Nhu)|
 |     3       | May 30th - June 3rd   | - Interface the IR sensor with the BBBlue <br/> - Collect data for the IR sensor |
 |     4       | June 6th - June 10th    |- Collect data for the IR sensor <br/> - Analyze the IR sensor data|
-|     5       | June 13th - June 20th    |- Analyze the IR sensor data <br> - Got the surface for the mean of the IR<br/>-Got the surface(line best fit) for the std of the IR <br/> - Got the distribution when we move the object to change the angle to the sensor|
+|     5       | June 13th - June 17th    |- Analyze the IR sensor data <br> - Got the surface for the mean of the IR<br/>-Got the surface(line best fit) for the std of the IR <br/> - Got the distribution when we move the object to change the angle to the sensor|
 
 Goal for week 6 :
 - Collect data for ultrasonic sensor
