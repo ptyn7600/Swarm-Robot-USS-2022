@@ -10,11 +10,9 @@ I will update what I had for a week in this section
 |     4       | June 6th - June 10th    |- Collect data for the IR sensor <br/> - Analyze the IR sensor data|
 |     5       | June 13th - June 20th    |- Analyze the IR sensor data <br> - Got the surface for the mean of the IR<br/>-Got the surface(line best fit) for the std of the IR <br/> - Got the distribution when we move the object to change the angle to the sensor|
 
-Goal for week 5 :
-- Characterize the angle of the sensor (IR) ---> Done
--  Find the function for IR sensor ------> Done
+Goal for week 6 :
 - Collect data for ultrasonic sensor
-- Find the function for both sensors
+- Find the function for ultrasonic sensor
 
 ## What I learned
 
