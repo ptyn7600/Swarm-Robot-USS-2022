@@ -36,7 +36,7 @@ For BonseScript,  some pin map is available in this [link](https://groups.google
 ### RC Library
 RC library is used, and the documentation on the library can be found [here](http://strawsondesign.com/docs/librobotcontrol/).
 
-## Ultrasonic HC-SR04 Interface w/ BBBlue
+## Ultrasonic HC-SR04 Interface w/ BBBlue([Datasheet](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf))
 
 First, I get the sensor to work with the Arduino by following this [tutorial](https://create.arduino.cc/projecthub/abdularbi17/ultrasonic-sensor-hc-sr04-with-arduino-tutorial-327ff6). This link also explained how the sensor works.
 
