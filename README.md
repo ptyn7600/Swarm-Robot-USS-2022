@@ -40,9 +40,11 @@ RC library is used, and the documentation on the library can be found [here](htt
 
 First, I get the sensor to work with the Arduino by following this [tutorial](https://create.arduino.cc/projecthub/abdularbi17/ultrasonic-sensor-hc-sr04-with-arduino-tutorial-327ff6). This link also explained how the sensor works.
 
-Then I applied the same logic and wrote it in C to work with the BBBlue. Here is [the source code](https://github.com/ptyn7600/Swarm-Robot-USS-2022/tree/main/ultrasonic_RC_Nhu).
+Then I applied the same logic and wrote it in C to work with the BBBlue. Here is [the source code](https://github.com/ptyn7600/Swarm-Robot-USS-2022/tree/main/ultrasonic_RC_Nhu). 
 
-One note while collecting hundreds or thousands of samples for analysis is that the sensor need at 0.5 seconds to reset to give accurate reading. Therefore, it will take more time to collect data for the ultrasonic than for the IR sensor. 
+Please refer to this [wiki page](https://github.com/ptyn7600/Swarm-Robot-USS-2022/wiki/Ultrasonic-Sensor---Attempts) to find more information about the Ultrasonic Sensor.
+
+*One note while collecting hundreds or thousands of samples for analysis is that the sensor need at 0.5 seconds to reset to give accurate reading. Therefore, it will take more time to collect data for the ultrasonic than for the IR sensor. 
 
 ## IR Distance Sensor SHARP 0A41SK Interface w/ BBBlue ([Datasheet](https://www.pololu.com/file/0J713/GP2Y0A41SK0F.pdf))
 
