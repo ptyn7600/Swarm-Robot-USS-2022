@@ -17,6 +17,7 @@ I will update what I had for a week in this section
 Goal for week 8 :
 - Graph for ultrasonic to be included in paper ---> Done
 - Got the graph for IR ( the same as what we have for the ultrasonic) 
+- Latex Setup
 
 ## What I learned
 
