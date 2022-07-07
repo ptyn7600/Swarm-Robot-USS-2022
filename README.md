@@ -2,6 +2,9 @@
 ## LaTex Write Up 
 Here is the [link](https://www.overleaf.com/read/xbrwbcxrjdyh) to the description of all experiments I have conducted.
 
+
+Y. Li, B. L. Dobbins and J. T. Stauth, "33.8 A Decentralized Daisy-Chain-Controlled Switched-Capacitor Driver for Microrobotic Actuators with 10× Power-Reduction Factor and Over 300V Drive Voltage," 2021 IEEE International Solid- State Circuits Conference (ISSCC), 2021, pp. 474-476, doi: 10.1109/ISSCC42613.2021.9365981.
+
 ## Progression
 I will update what I had for a week in this section
 |   Week      | Date        | Completion  |
