@@ -21,6 +21,7 @@ Goal for week 8 :
 - C Model for the IR ---> Done
 - Got the graph for IR ( the same as what we have for the ultrasonic) 
 - Latex Setup
+- How to generate random numbers that follow Gausian Distribution in C
 
 ## What I learned
 
