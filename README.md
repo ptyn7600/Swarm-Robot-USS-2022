@@ -13,11 +13,12 @@ I will update what I had for a week in this section
 |     5       | June 13th - June 17th    |- Analyze the IR sensor data <br> - Got the surface for the mean of the IR<br/>-Got the surface(line best fit) for the std of the IR <br/> - Got the distribution when we move the object to change the angle to the sensor|
 |     6       | June 21th - June 24th    |- Tried plotting the distribtion of the data (the shape's not consistant among distances) <br/> - Tried to conduct the experiment with more open and empty space to double check the data (the distribution is still not promising)<br/> - Tried to plot the probability of getting the correct results|
 |     7       | June 27th - June 30th    |- Finish characterize the ultrasonic sensor (only for distance)|
-|     8       | July 5th - July 8th    |- Got the graph for Ultrasonic to be included in paper|
+|     8       | July 5th - July 8th    |- Got the graph for Ultrasonic to be included in paper <br/> - C Model for the IR |
 
 
 Goal for week 8 :
 - Graph for ultrasonic to be included in paper ---> Done
+- C Model for the IR ---> Done
 - Got the graph for IR ( the same as what we have for the ultrasonic) 
 - Latex Setup
 
