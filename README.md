@@ -87,6 +87,7 @@ Please refer to this [wiki page](https://github.com/ptyn7600/Swarm-Robot-USS-202
 1. [Basic Tutorial How to log in Beagle Bone Blue](https://static.packt-cdn.com/downloads/BeagleBoneRoboticProjectsSecondEdition_ColorImages.pdf)
 2. [BBBlack LED Blink](http://derekmolloy.ie/beaglebone-controlling-the-on-board-leds-using-c/)
 3. [Youtube link to blink a LED on BBBlack](https://www.youtube.com/watch?v=pJWcRPcqk3g)
-
+4. [Generate Random Numbers that follow Gausian Distribution Link 1](https://www.tutorialspoint.com/generate-random-numbers-following-a-normal-distribution-in-c-cplusplus)
+5. [Generate Random Numbers that follow Gausian Distribution Link 2](https://phoxis.org/2013/05/04/generating-random-numbers-from-normal-distribution-in-c/)
 
 https://machinelearningmastery.com/probability-density-estimation/
