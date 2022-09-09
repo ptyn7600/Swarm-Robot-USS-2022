@@ -1,0 +1,1 @@
+These files compare the result got from the real data and from the simulator's generation.
