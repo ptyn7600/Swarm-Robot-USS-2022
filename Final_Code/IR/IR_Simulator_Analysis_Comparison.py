@@ -78,6 +78,9 @@ if __name__=="__main__":
     numSize = 19
     plt.rcParams["font.weight"] = "bold"
     plt.rcParams["axes.labelweight"] = "bold"
+    fig = plt.figure(figsize=(14, 9))
+    ax = plt.axes()
+
 
     fileRead = 4
     probMat = []
@@ -139,7 +142,7 @@ if __name__=="__main__":
     upperBound = (((confidenceIntervalMat[:, 1]).flatten(order='C')).tolist())[0]
     plt.fill_between(state, lowerBound, upperBound, alpha=0.6)
 
-    plt.legend(labels=['real', 'real-region', 'simulator','simulator-region'], prop={'size': rightSize})
+    plt.legend(labels=['real', 'real-region', 'simulator','simulator-region'], prop={'size': rightSize}, facecolor='white')
     # plt.savefig(root + 'cm')
     # plt.xticks(np.concatenate((np.arange(0,6,1), np.arange(6,40,5), np.arange(40,45,1),np.arange(45,60,5) )))
     # plt.xticks(np.concatenate((np.arange(0,17,5), np.arange(17,25,1),np.arange(25,60,5) )))
@@ -148,4 +151,11 @@ if __name__=="__main__":
     plt.title("Confidence Data for Real and Simulation of the IR Sensor at 20cm", fontsize=rightSize, fontweight="bold")
     plt.xlabel("Distance (cm)", fontsize=rightSize)
     plt.ylabel("Probability", fontsize=rightSize)
+
+    ax.set_facecolor("white")
+    ax.spines['bottom'].set_color('black')
+    ax.spines['top'].set_color('black')
+    ax.spines['right'].set_color('black')
+    ax.spines['left'].set_color('black')
+    ax.tick_params(top=False, bottom=True, left=True, right=True)
     plt.show()

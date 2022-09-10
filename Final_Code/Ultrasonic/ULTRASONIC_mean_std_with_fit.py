@@ -44,6 +44,7 @@ while (count < fileCount):
 
 # Plotting Mean estimation
 fig = plt.figure(figsize=(14, 9))
+ax = plt.axes()
 x_distance = np.arange(1,22,1)
 plt.plot(x_distance, mean)
 # PLotting mean best fit
@@ -59,10 +60,18 @@ theta = np.polyfit(x_distance, std, 1)
 std_fit = theta[1] + theta[0] * x_distance
 plt.plot(x_distance, std_fit, linestyle='--')
 
-plt.legend(loc='center right', labels=['Mean', 'Mean Best-fit', 'Standard Deviation', 'Standard Deviation Best-fit'])
+plt.legend(loc='center right', labels=['Mean', 'Mean Best-fit', 'Standard Deviation', 'Standard Deviation Best-fit'],
+           facecolor='white')
 plt.title("Relationship of Mean and Standard Deviation to Distance with Fit", fontsize=rightSize, fontweight="bold")
 plt.xticks(x_distance, fontsize=numSize)
 plt.yticks(fontsize=numSize)
 plt.xlabel("Expected Distances (cm)", fontsize=rightSize)
 plt.ylabel("Estimated Distances (cm)", fontsize=rightSize)
+plt.grid(False)
+ax.set_facecolor("white")
+ax.spines['bottom'].set_color('black')
+ax.spines['top'].set_color('black')
+ax.spines['right'].set_color('black')
+ax.spines['left'].set_color('black')
+ax.tick_params(top=False, bottom=True, left=True, right=True)
 plt.show()

@@ -52,7 +52,7 @@ ax.plot(x_distance, mean_fit, linestyle='--', color='black')
 
 ax.set_ylabel("Sensor Raw Reading", fontsize=rightSize)
 ax.set_xlabel("Expected Distances (cm)", fontsize=rightSize)
-ax.legend(loc='center left', labels=['Mean', 'Mean Best-fit'])
+ax.legend(loc='center left', labels=['Mean', 'Mean Best-fit'], facecolor='white')
 
 # Plotting std estimation
 ax2 = ax.twinx()
@@ -65,7 +65,7 @@ std_b = 0.14072513618767238
 std_fit = std_a*np.exp(x_distance*std_b)
 ax2.plot(x_distance, std_fit, linestyle='--', color='purple')
 
-ax2.legend(loc='center right', labels=['Standard Deviation', 'Standard Deviation Best-fit'])
+ax2.legend(loc='center right', labels=['Standard Deviation', 'Standard Deviation Best-fit'], facecolor='white')
 ax2.grid(False)
 
 
@@ -73,4 +73,12 @@ ax.tick_params(axis='both', which='major', labelsize=numSize)
 ax2.tick_params(axis='both', which='major', labelsize=numSize)
 plt.title("Relationship of Mean and Standard Deviation to Distance with Fit", fontsize=rightSize, fontweight="bold")
 plt.xticks(x_distance)
+
+plt.grid(False)
+ax.set_facecolor("white")
+ax.spines['bottom'].set_color('black')
+ax.spines['top'].set_color('black')
+ax.spines['right'].set_color('black')
+ax.spines['left'].set_color('black')
+ax.tick_params(top=False, bottom=True, left=True, right=True)
 plt.show()

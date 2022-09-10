@@ -81,10 +81,14 @@ root = 'D:\\Research\\Swarm-Robot-USS-2022\\Attempt\\temp\\comparison\\'
 if __name__=="__main__":
     rightSize = 20
     numSize = 19
+
     plt.rcParams["font.weight"] = "bold"
     plt.rcParams["axes.labelweight"] = "bold"
+    fig = plt.figure(figsize=(14, 9))
+    ax = plt.axes()
 
-    fileRead = 4
+    # Change the read file
+    fileRead = 1
     probMat = []
     state = np.arange(1, 60, 0.1)
 
@@ -144,13 +148,21 @@ if __name__=="__main__":
     upperBound = (((confidenceIntervalMat[:, 1]).flatten(order='C')).tolist())[0]
     plt.fill_between(state, lowerBound, upperBound, alpha=0.6)
 
-    plt.legend(labels=['real', 'real-region', 'simulator','simulator-region'], prop={'size': rightSize})
-    plt.title("Confidence Data for Real and Simulation of the US Sensor at 20cm", fontsize=rightSize, fontweight="bold")
+    plt.legend(labels=['real', 'real-region', 'simulator','simulator-region'], prop={'size': rightSize}, facecolor='white')
+    # == Change the title name ==
+    plt.title("Confidence Data for Real and Simulation of the US Sensor at 2cm", fontsize=rightSize, fontweight="bold")
     plt.xlabel("Distance (cm)", fontsize=rightSize)
     plt.ylabel("Probability", fontsize=rightSize)
 
     # plt.xticks(np.concatenate((np.arange(0,6,1), np.arange(6,60,5))))
     plt.xticks(np.concatenate((np.arange(0,17,5), np.arange(17,27,1), np.arange(27,61,5))))
-    # plt.xticks(np.arange(0,61,5), fontsize=numSize)
+    plt.xticks(np.arange(0,61,5), fontsize=numSize)
     # plt.savefig(root + 'cm')
+
+    ax.set_facecolor("white")
+    ax.spines['bottom'].set_color('black')
+    ax.spines['top'].set_color('black')
+    ax.spines['right'].set_color('black')
+    ax.spines['left'].set_color('black')
+    ax.tick_params(top=False, bottom=True, left=True, right=True)
     plt.show()
