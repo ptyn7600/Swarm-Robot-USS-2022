@@ -1,5 +1,6 @@
 All data is stored in Final Data folder
 I also include /Attempt/Image-Editing.pptx that I use to edit the images.
+Note: Make sure you have a correct path to your data files.
 
 === Figure 5 ===
 File: Final_Code/Ultrasonic/ULTRASONIC_mean_std_with_fit.py
